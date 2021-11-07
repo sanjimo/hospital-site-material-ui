@@ -15,7 +15,7 @@ const Testimonial = () => {
     return (
         <Box sx={{ flexGrow: 1, mt: 5, mb: 5 }}>
             <Container>
-                <Typography sx={{fontWeight: 500, textAlign: 'start', m:2}} variant="h6" component="div">
+                <Typography sx={{fontWeight: 500, textAlign: 'start', m:2, color:"#39EAD6"}} variant="h6" component="div">
                    TESTIMONIAL
                 </Typography>
                 <Typography sx={{fontWeight: 600, textAlign: 'start', m:2}} variant="h4" component="div">
@@ -37,7 +37,7 @@ const Testimonial = () => {
                                 alt=""
                                 />
                                 <CardContent>
-                                    <Typography sx={{textAlign: 'start'}} variant="h6" color="text.primary">
+                                    <Typography sx={{textAlign: 'start', color:"#39EAD6"}} variant="h6">
                                         Winson Herry
                                     </Typography>
                                     <Typography sx={{textAlign: 'start'}} variant="body" color="text.secondary">
@@ -62,10 +62,10 @@ const Testimonial = () => {
                                 alt=""
                                 />
                                 <CardContent>
-                                    <Typography sx={{textAlign: 'start'}} variant="h6" color="text.primary">
+                                    <Typography sx={{textAlign: 'start', color:"#39EAD6"}} variant="h6">
                                         Winson Herry
                                     </Typography>
-                                    <Typography sx={{textAlign: 'start'}} variant="body" color="text.secondary">
+                                    <Typography sx={{textAlign: 'start'}} variant="body">
                                        California
                                     </Typography>
                                 </CardContent>
@@ -87,7 +87,7 @@ const Testimonial = () => {
                                 alt=""
                                 />
                                 <CardContent>
-                                    <Typography sx={{textAlign: 'start'}} variant="h6" color="text.primary">
+                                    <Typography sx={{textAlign: 'start', color:"#39EAD6"}} variant="h6">
                                         Winson Herry
                                     </Typography>
                                     <Typography sx={{textAlign: 'start'}} variant="body" color="text.secondary">

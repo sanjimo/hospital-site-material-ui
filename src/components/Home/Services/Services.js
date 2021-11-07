@@ -28,18 +28,18 @@ const services = [
 
 const Services = () => {
     return (
-        <Box sx={{ flexGrow: 1, mt: 1, mb: 4 }}>
+        <Box sx={{ flexGrow: 1, mt: 5, mb: 4 }}>
             <Container>
-                <Typography sx={{fontWeight: 500, textAlign: 'center', m:2}} variant="h6" component="div">
+                <Typography sx={{fontWeight: 500, textAlign: 'center', m:2, color:"#39EAD6"}} variant="h6" component="div">
                     OUR SERVICES
                 </Typography>
                 <Typography sx={{fontWeight: 600, textAlign: 'center', m:3}} variant="h4" component="div">
                     Services we provide
                 </Typography>
                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-                  {
+                    {
                       services.map(service=><Service key={service.name} service={service}></Service>)
-                  }
+                    }
                 </Grid>
            </Container>
         </Box>
